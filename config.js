@@ -26,15 +26,15 @@ export default {
 	},
 
 	// GoogleLDAPAuth (optimized for google auth)
-	authentication: 'GoogleLDAPAuth',
-	authenticationOptions: {
-		base: 'dc=hokify,dc=com',
-		// get your keys from http://admin.google.com/ -> Apps -> LDAP -> Client
-		tls: {
-			keyFile: 'ldap.gsuite.key',
-			certFile: 'ldap.gsuite.crt',
-		},
-	},
+	// authentication: 'GoogleLDAPAuth',
+	// authenticationOptions: {
+	// 	base: 'dc=hokify,dc=com',
+	// 	// get your keys from http://admin.google.com/ -> Apps -> LDAP -> Client
+	// 	tls: {
+	// 		keyFile: 'ldap.gsuite.key',
+	// 		certFile: 'ldap.gsuite.crt',
+	// 	},
+	// },
 
 	/** LDAP AUTH 
 	authentication: 'LDAPAuth',
@@ -52,7 +52,6 @@ export default {
 	}, 
 	 */
 
-	/** static auth 
 	authentication: 'StaticAuth',
 	authenticationOptions: {
 		validCredentials: [
@@ -61,7 +60,6 @@ export default {
 			{ username: 'admin@hallo.com', password: 'cool' },
 		],
 	},
-	 */
 
 	/** VLAN CONFIG
 	vlan: 400,
