@@ -45,10 +45,10 @@ input_password		= whatever2020
 output_password		= whatever2020
 
 [server]
-countryName             = AT
-stateOrProvinceName     = Radius
-localityName            = Somewhere
-organizationName        = Example Inc.
-emailAddress            = admin@example.org
-commonName              = "Example Certificate Authority"
+countryName             = CN
+stateOrProvinceName     = Zhejiang
+localityName            = Shaoxing
+organizationName        = Chunhui Controls Inc.
+emailAddress            = contact@chunhuizk.com
+commonName              = "Chunhui Certificate Authority"
 
