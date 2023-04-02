@@ -52,14 +52,14 @@ export default {
 	}, 
 	 */
 
-	authentication: 'StaticAuth',
-	authenticationOptions: {
-		validCredentials: [
-			{ username: 'test@hokify.com', password: 'test' },
-			{ username: 'user1@asdf.com', password: 'password' },
-			{ username: 'admin@hallo.com', password: 'cool' },
-		],
-	},
+	// authentication: 'StaticAuth',
+	// authenticationOptions: {
+	// 	validCredentials: [
+	// 		{ username: 'test@hokify.com', password: 'test' },
+	// 		{ username: 'user1@asdf.com', password: 'password' },
+	// 		{ username: 'admin@hallo.com', password: 'cool' },
+	// 	],
+	// },
 
 	/** VLAN CONFIG
 	vlan: 400,
@@ -75,10 +75,9 @@ export default {
 	}
 	 */
 
-	/** HTTP AUTH 
+	// HTTP AUTH
 	authentication: 'HTTPAuth',
 	authenticationOptions: {
-		url: 'https://my-website.com/api/backend-login'
-	}
-	*/
+		url: 'https://general-service.chunhuizk.com/public/chunhui-access/wifi-auth',
+	},
 };
