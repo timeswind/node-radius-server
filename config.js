@@ -20,9 +20,7 @@ export default {
 				passphrase: 'whatever2020',
 			},
 		],
-		// sessionTimeout: 3600,
-		// sesionIdContext: 'meiasdfkljasdft!',
-		// ticketKeys: Buffer.from('123456789012345678901234567890123456789012345678'),
+		secureProtocol: 'TLSv1_2_method',
 	},
 
 	// GoogleLDAPAuth (optimized for google auth)
